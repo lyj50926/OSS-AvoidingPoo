@@ -82,17 +82,6 @@ run_ending = False
 character_left = pygame.image.load("./resources/캐릭터2.png")
 character_right = pygame.image.load("./resources/캐릭터.png")
 
-#Speed Down 아이템
-item = [0, 0, 0, 0, 0, 0]
-item_size = [0, 0, 0, 0, 0, 0]
-item_x_pos = [0, 0, 0, 0, 0, 0]
-item_y_pos = [0, 0, 0, 0, 0, 0]
-item_width = 0
-item_height = 0
-item1 = pygame.image.load("./resources/speed_down.png")
-item2 = pygame.image.load("./resources/speed_down2.png")
-item3 = pygame.image.load("./resources/speed_down3.png")
-sd = 0
 
 # ddong * 6
 ddong = [0, 0, 0, 0, 0, 0]
@@ -107,10 +96,6 @@ ddong4 = pygame.image.load("./resources/ddong.png")
 ddong5 = pygame.image.load("./resources/ddong.png")
 
 ddong_speed = [0.5, 0.6, 0.7, 0.8, 0.9]
-if sd>=1:
-    ddong_speed = [0.3, 0.4, 0.5, 0.6, 0.7]
-else:
-    ddong_speed = [0.5, 0.6, 0.7, 0.8, 0.9]
 
 
 bk=0
