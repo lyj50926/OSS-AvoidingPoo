@@ -387,7 +387,7 @@ while run_all:
 
         if (int(elapsed_time)) >= 25 :
             a = int(score)	# 시작값
-            d = int(500)	# 등차값
+            d = int(100)	# 등차값
             n = int(5)	# 구하고자 하는 숫자의 순서
 
             sc_index = (a + d * (n))
