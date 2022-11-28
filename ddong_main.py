@@ -363,7 +363,6 @@ while run_all:
                 ddong_y_pos[i] = 0 - ddong_height
                 ddong[i] = ddong1
                 k[i] = 0
-    
 
         # get rect (충돌 감지를 위해 직사각형 모양의 데이터 필요)
         character_rect = character.get_rect()
